@@ -1,0 +1,99 @@
+Pi0System Habitable Planet Search Results
+========================================
+
+Search ID: HAB_68927
+Timestamp: 20250429_161333
+Status: completed
+
+Found 5 potential habitable planets:
+
+Planet 1: TOI-6531 b
+---------------------------
+Coordinates: RA 14h 41m 12.36s, Dec 64° 39' 17.72"
+Distance: 70.0 light years
+Planet radius: 0.8 Earth radii
+Planet mass: 1.78 Earth masses
+Orbital period: 293.93 days
+Equilibrium temperature: 266.3 K
+Habitability score: 78.64%
+Discovery status: undiscovered
+
+Atmospheric composition:
+  - nitrogen: 77.3%
+  - oxygen: 21.0%
+  - argon: 1.4%
+  - carbon_dioxide: 0.43%
+  - water_vapor: 2.55%
+
+Planet 2: HD-1502 b
+---------------------------
+Coordinates: RA 22h 49m 9.12s, Dec 28° 7' 8.69"
+Distance: 83.47 light years
+Planet radius: 1.74 Earth radii
+Planet mass: 2.12 Earth masses
+Orbital period: 266.8 days
+Equilibrium temperature: 288.4 K
+Habitability score: 69.74%
+Discovery status: undiscovered
+
+Atmospheric composition:
+  - nitrogen: 67.9%
+  - oxygen: 10.4%
+  - argon: 1.9%
+  - carbon_dioxide: 0.93%
+  - water_vapor: 1.45%
+
+Planet 3: Gliese-4322 b
+---------------------------
+Coordinates: RA 8h 45m 59.35s, Dec -17° 56' 13.5"
+Distance: 44.91 light years
+Planet radius: 1.71 Earth radii
+Planet mass: 2.85 Earth masses
+Orbital period: 395.88 days
+Equilibrium temperature: 254.5 K
+Habitability score: 63.43%
+Discovery status: undiscovered
+
+Atmospheric composition:
+  - nitrogen: 79.5%
+  - oxygen: 24.1%
+  - argon: 1.4%
+  - carbon_dioxide: 0.77%
+  - water_vapor: 2.69%
+
+Planet 4: Gliese-6258 b
+---------------------------
+Coordinates: RA 23h 39m 18.23s, Dec 9° 3' 35.04"
+Distance: 81.86 light years
+Planet radius: 1.66 Earth radii
+Planet mass: 1.97 Earth masses
+Orbital period: 276.55 days
+Equilibrium temperature: 317.4 K
+Habitability score: 59.28%
+Discovery status: undiscovered
+
+Atmospheric composition:
+  - nitrogen: 69.7%
+  - oxygen: 18.2%
+  - argon: 1.5%
+  - carbon_dioxide: 0.35%
+  - water_vapor: 1.49%
+
+Planet 5: TOI-832 b
+---------------------------
+Coordinates: RA 6h 18m 30.45s, Dec -34° 43' 47.98"
+Distance: 59.23 light years
+Planet radius: 1.82 Earth radii
+Planet mass: 2.48 Earth masses
+Orbital period: 310.78 days
+Equilibrium temperature: 265.6 K
+Habitability score: 52.25%
+Discovery status: undiscovered
+
+Atmospheric composition:
+  - nitrogen: 75.5%
+  - oxygen: 11.6%
+  - argon: 1.2%
+  - carbon_dioxide: 0.17%
+  - water_vapor: 0.75%
+

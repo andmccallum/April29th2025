@@ -1,0 +1,104 @@
+# Pi0System Components: Operators, Generators, and Decorators
+# Generated: 2025-04-29T15:40:46.506225
+
+## OPERATORS
+
+### TemporalShift
+Description: Operator for analyzing temporal shifts in cultural development
+Equation: T(x, t) = ∫ C(x, τ) e^(-i(t-τ)) dτ
+Syntax: temporal_shift(civilization_data, time_period)
+Example: result = temporal_shift(sumerian_data, '3000BCE-2000BCE')
+
+### CulturalDiffusion
+Description: Operator for modeling cultural diffusion between civilizations
+Equation: D(c₁, c₂, t) = ∫ k(d) · (c₁(x,t) - c₂(x,t)) dx
+Syntax: diffusion_model(civ1_data, civ2_data, time_period, diffusion_constant)
+Example: influence = diffusion_model(sumerian_data, babylonian_data, '2500BCE', 0.75)
+
+### LinguisticTransform
+Description: Operator for transforming between ancient linguistic systems
+Equation: L(T₁, T₂) = M · T₁ where M is the transformation matrix
+Syntax: linguistic_transform(source_text, source_lang, target_lang)
+Example: babylonian_text = linguistic_transform(sumerian_text, 'sumerian', 'babylonian')
+
+### ArchaeologicalReconstruction
+Description: Operator for reconstructing archaeological contexts
+Equation: R(f) = ∑ w_i · f_i where f_i are archaeological fragments
+Syntax: reconstruct(fragments, confidence_threshold)
+Example: site_model = reconstruct(excavation_data, 0.85)
+
+### MythologicalMapping
+Description: Operator for mapping mythological systems between civilizations
+Equation: M(m₁, m₂) = sim(V₁, V₂) where V are mythological vector spaces
+Syntax: myth_map(source_mythology, target_mythology)
+Example: equivalents = myth_map('sumerian_pantheon', 'babylonian_pantheon')
+
+## GENERATORS
+
+### TextCorpusGenerator
+Description: Generator for creating comprehensive text corpora from fragments
+Equation: G(F, c) = {T | P(T|F) > c} where F are fragments and c is confidence
+Syntax: generate_corpus(fragments, language, confidence_threshold)
+Example: sumerian_corpus = generate_corpus(clay_tablet_data, 'sumerian', 0.8)
+
+### CivilizationModelGenerator
+Description: Generator for creating civilization development models
+Equation: C(t) = C₀ + ∫ dC/dt dt where C₀ is initial state
+Syntax: generate_civilization_model(initial_data, development_factors, time_span)
+Example: atlantis_model = generate_civilization_model(atlantis_fragments, factors, '9600BCE-8000BCE')
+
+### ArchitecturalGenerator
+Description: Generator for reconstructing architectural styles and structures
+Equation: A(p, s, m) = ∑ p_i · s_i · m_i where p, s, m are parameters
+Syntax: generate_architecture(style_parameters, structural_data, materials)
+Example: ziggurats = generate_architecture('sumerian_temple', structural_data, materials_data)
+
+### ScriptEvolutionGenerator
+Description: Generator for modeling the evolution of writing systems
+Equation: S(t) = S₀ · e^(λt) where λ is the evolution rate
+Syntax: generate_script_evolution(base_script, time_period, influence_factors)
+Example: cuneiform_evolution = generate_script_evolution('proto-cuneiform', '3200BCE-2000BCE', factors)
+
+### ArtifactGenerator
+Description: Generator for predicting undiscovered artifacts
+Equation: A(l, c, t) = P(a|l, c, t) where l is location, c is civilization, t is time
+Syntax: predict_artifacts(location, civilization, time_period, confidence_threshold)
+Example: predicted_finds = predict_artifacts('southern_mesopotamia', 'sumerian', '2800BCE', 0.7)
+
+## DECORATORS
+
+### TemporalContext
+Description: Decorator for adding temporal context to analysis
+Syntax: @temporal_context(time_period, resolution)
+Function Signature: def analyze_text(text): ...
+Example: @temporal_context('3rd Dynasty of Ur', 'decade')
+def analyze_royal_inscriptions(texts): ...
+
+### GeographicalContext
+Description: Decorator for adding geographical context to analysis
+Syntax: @geographical_context(region, precision)
+Function Signature: def analyze_artifacts(artifacts): ...
+Example: @geographical_context('Mesopotamia', 'city-state')
+def analyze_trade_records(records): ...
+
+### CulturalLens
+Description: Decorator for applying specific cultural perspective to analysis
+Syntax: @cultural_lens(culture, aspects)
+Function Signature: def interpret_text(text): ...
+Example: @cultural_lens('sumerian', ['religious', 'economic'])
+def interpret_temple_records(records): ...
+
+### UncertaintyQuantification
+Description: Decorator for adding uncertainty quantification to results
+Syntax: @uncertainty_quantification(method, confidence_level)
+Function Signature: def reconstruct_history(data): ...
+Example: @uncertainty_quantification('bayesian', 0.95)
+def reconstruct_atlantis_location(evidence): ...
+
+### ComparativeAnalysis
+Description: Decorator for adding comparative analysis with other civilizations
+Syntax: @comparative_analysis(civilizations, aspects)
+Function Signature: def analyze_governance(data): ...
+Example: @comparative_analysis(['sumerian', 'babylonian', 'assyrian'], ['kingship', 'law'])
+def analyze_legal_codes(codes): ...
+

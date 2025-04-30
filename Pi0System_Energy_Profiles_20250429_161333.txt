@@ -1,0 +1,343 @@
+Pi0System Energy Profiles for Habitable Planets
+===========================================
+
+Analysis Timestamp: 20250429_161333
+Energy types analyzed: gravity, em, quantum, magnetic, electric, nuclear, chemical
+
+Energy profiles for 5 potential habitable planets:
+
+Planet 1: Gliese-3165 b
+==========================
+Coordinates: RA 0h 53m 16.83s, Dec 69° 36' 38.89"
+Distance: 52.63 light years
+Habitability score: 73.57%
+
+Energy Profiles:
+--------------
+
+GRAVITY ENERGY PROFILE:
+  Mathematical representation: g = G * M / r^2
+  surface_gravity: 1.074
+  surface_gravity_description: 1.074 g (Earth = 1.0)
+  escape_velocity: 16.98
+  escape_velocity_description: 16.98 km/s
+  Notes: The planet has 1.074x Earth's gravity, which is suitable for human habitation.
+
+EM ENERGY PROFILE:
+  Mathematical representation: E = hν
+  star_type: K-type
+  uv_index: 1.43
+  uv_index_description: 1.43x Earth's UV index
+  radiation_level: 1.0
+  radiation_description: 1.0x Earth's radiation level
+  Notes: The planet orbits a K-type star with UV radiation levels 1.43x that of Earth, which is potentially harmful for human habitation.
+
+QUANTUM ENERGY PROFILE:
+  Mathematical representation: E = hν/2
+  quantum_stability: 1.05
+  quantum_stability_description: 1.05x Earth's quantum stability
+  vacuum_energy_density: 1.019
+  vacuum_energy_description: 1.019x Earth's vacuum energy density
+  Notes: The planet has quantum stability metrics within normal parameters for habitable worlds.
+
+MAGNETIC ENERGY PROFILE:
+  Mathematical representation: B = μ₀/4π · m/r³
+  magnetic_field_strength: 1.14
+  magnetic_field_description: 1.14x Earth's magnetic field strength
+  pole_orientation: 11.6
+  pole_orientation_description: 11.6° offset from rotational axis
+  Notes: The planet has a magnetic field 1.14x the strength of Earth's, which provides adequate protection from cosmic radiation.
+
+ELECTRIC ENERGY PROFILE:
+  Mathematical representation: E = F/q
+  electric_field_strength: 1.25
+  electric_field_description: 1.25x Earth's atmospheric electric field
+  lightning_activity: 1.44
+  lightning_description: 1.44x Earth's lightning frequency
+  Notes: The planet experiences extreme lightning activity compared to Earth.
+
+NUCLEAR ENERGY PROFILE:
+  Mathematical representation: E = mc²
+  radioactive_concentration: 1.04
+  radioactive_description: 1.04x Earth's radioactive element concentration
+  core_activity: 1.2
+  core_description: 1.2x Earth's core nuclear activity
+  Notes: The planet has similar levels of naturally occurring radioactive elements compared to Earth.
+
+CHEMICAL ENERGY PROFILE:
+  Mathematical representation: ΔG = ΔH - TΔS
+  chemical_energy_potential: 0.82
+  chemical_energy_description: 0.82x Earth's chemical energy potential
+  organic_diversity: 1.09
+  organic_diversity_description: 1.09x Earth's organic compound diversity
+  Notes: The planet has limited chemical energy potential for supporting complex life.
+
+
+Planet 2: KOI-2619 b
+==========================
+Coordinates: RA 12h 27m 53.34s, Dec -76° 3' 49.74"
+Distance: 51.07 light years
+Habitability score: 69.62%
+
+Energy Profiles:
+--------------
+
+GRAVITY ENERGY PROFILE:
+  Mathematical representation: g = G * M / r^2
+  surface_gravity: 0.228
+  surface_gravity_description: 0.228 g (Earth = 1.0)
+  escape_velocity: 10.44
+  escape_velocity_description: 10.44 km/s
+  Notes: The planet has 0.228x Earth's gravity, which is challenging for human habitation.
+
+EM ENERGY PROFILE:
+  Mathematical representation: E = hν
+  star_type: M-type
+  uv_index: 1.34
+  uv_index_description: 1.34x Earth's UV index
+  radiation_level: 1.0
+  radiation_description: 1.0x Earth's radiation level
+  Notes: The planet orbits a M-type star with UV radiation levels 1.34x that of Earth, which is potentially harmful for human habitation.
+
+QUANTUM ENERGY PROFILE:
+  Mathematical representation: E = hν/2
+  quantum_stability: 0.949
+  quantum_stability_description: 0.949x Earth's quantum stability
+  vacuum_energy_density: 1.024
+  vacuum_energy_description: 1.024x Earth's vacuum energy density
+  Notes: The planet has quantum stability metrics within unusual parameters for habitable worlds.
+
+MAGNETIC ENERGY PROFILE:
+  Mathematical representation: B = μ₀/4π · m/r³
+  magnetic_field_strength: 1.21
+  magnetic_field_description: 1.21x Earth's magnetic field strength
+  pole_orientation: 0.7
+  pole_orientation_description: 0.7° offset from rotational axis
+  Notes: The planet has a magnetic field 1.21x the strength of Earth's, which provides adequate protection from cosmic radiation.
+
+ELECTRIC ENERGY PROFILE:
+  Mathematical representation: E = F/q
+  electric_field_strength: 1.05
+  electric_field_description: 1.05x Earth's atmospheric electric field
+  lightning_activity: 1.99
+  lightning_description: 1.99x Earth's lightning frequency
+  Notes: The planet experiences extreme lightning activity compared to Earth.
+
+NUCLEAR ENERGY PROFILE:
+  Mathematical representation: E = mc²
+  radioactive_concentration: 0.74
+  radioactive_description: 0.74x Earth's radioactive element concentration
+  core_activity: 0.86
+  core_description: 0.86x Earth's core nuclear activity
+  Notes: The planet has different levels of naturally occurring radioactive elements compared to Earth.
+
+CHEMICAL ENERGY PROFILE:
+  Mathematical representation: ΔG = ΔH - TΔS
+  chemical_energy_potential: 0.94
+  chemical_energy_description: 0.94x Earth's chemical energy potential
+  organic_diversity: 0.67
+  organic_diversity_description: 0.67x Earth's organic compound diversity
+  Notes: The planet has limited chemical energy potential for supporting complex life.
+
+
+Planet 3: HD-2746 b
+==========================
+Coordinates: RA 6h 55m 14.15s, Dec -20° 37' 43.94"
+Distance: 63.83 light years
+Habitability score: 62.05%
+
+Energy Profiles:
+--------------
+
+GRAVITY ENERGY PROFILE:
+  Mathematical representation: g = G * M / r^2
+  surface_gravity: 0.507
+  surface_gravity_description: 0.507 g (Earth = 1.0)
+  escape_velocity: 15.5
+  escape_velocity_description: 15.5 km/s
+  Notes: The planet has 0.507x Earth's gravity, which is challenging for human habitation.
+
+EM ENERGY PROFILE:
+  Mathematical representation: E = hν
+  star_type: K-type
+  uv_index: 0.74
+  uv_index_description: 0.74x Earth's UV index
+  radiation_level: 1.27
+  radiation_description: 1.27x Earth's radiation level
+  Notes: The planet orbits a K-type star with UV radiation levels 0.74x that of Earth, which is potentially harmful for human habitation.
+
+QUANTUM ENERGY PROFILE:
+  Mathematical representation: E = hν/2
+  quantum_stability: 1.042
+  quantum_stability_description: 1.042x Earth's quantum stability
+  vacuum_energy_density: 1.013
+  vacuum_energy_description: 1.013x Earth's vacuum energy density
+  Notes: The planet has quantum stability metrics within normal parameters for habitable worlds.
+
+MAGNETIC ENERGY PROFILE:
+  Mathematical representation: B = μ₀/4π · m/r³
+  magnetic_field_strength: 1.37
+  magnetic_field_description: 1.37x Earth's magnetic field strength
+  pole_orientation: 10.5
+  pole_orientation_description: 10.5° offset from rotational axis
+  Notes: The planet has a magnetic field 1.37x the strength of Earth's, which provides adequate protection from cosmic radiation.
+
+ELECTRIC ENERGY PROFILE:
+  Mathematical representation: E = F/q
+  electric_field_strength: 0.86
+  electric_field_description: 0.86x Earth's atmospheric electric field
+  lightning_activity: 0.83
+  lightning_description: 0.83x Earth's lightning frequency
+  Notes: The planet experiences moderate lightning activity compared to Earth.
+
+NUCLEAR ENERGY PROFILE:
+  Mathematical representation: E = mc²
+  radioactive_concentration: 0.86
+  radioactive_description: 0.86x Earth's radioactive element concentration
+  core_activity: 0.91
+  core_description: 0.91x Earth's core nuclear activity
+  Notes: The planet has similar levels of naturally occurring radioactive elements compared to Earth.
+
+CHEMICAL ENERGY PROFILE:
+  Mathematical representation: ΔG = ΔH - TΔS
+  chemical_energy_potential: 0.8
+  chemical_energy_description: 0.8x Earth's chemical energy potential
+  organic_diversity: 1.11
+  organic_diversity_description: 1.11x Earth's organic compound diversity
+  Notes: The planet has limited chemical energy potential for supporting complex life.
+
+
+Planet 4: Gliese-5817 b
+==========================
+Coordinates: RA 12h 9m 28.86s, Dec -1° 51' 49.19"
+Distance: 70.93 light years
+Habitability score: 54.83%
+
+Energy Profiles:
+--------------
+
+GRAVITY ENERGY PROFILE:
+  Mathematical representation: g = G * M / r^2
+  surface_gravity: 0.595
+  surface_gravity_description: 0.595 g (Earth = 1.0)
+  escape_velocity: 14.71
+  escape_velocity_description: 14.71 km/s
+  Notes: The planet has 0.595x Earth's gravity, which is challenging for human habitation.
+
+EM ENERGY PROFILE:
+  Mathematical representation: E = hν
+  star_type: K-type
+  uv_index: 0.9
+  uv_index_description: 0.9x Earth's UV index
+  radiation_level: 1.15
+  radiation_description: 1.15x Earth's radiation level
+  Notes: The planet orbits a K-type star with UV radiation levels 0.9x that of Earth, which is suitable for human habitation.
+
+QUANTUM ENERGY PROFILE:
+  Mathematical representation: E = hν/2
+  quantum_stability: 1.031
+  quantum_stability_description: 1.031x Earth's quantum stability
+  vacuum_energy_density: 0.953
+  vacuum_energy_description: 0.953x Earth's vacuum energy density
+  Notes: The planet has quantum stability metrics within normal parameters for habitable worlds.
+
+MAGNETIC ENERGY PROFILE:
+  Mathematical representation: B = μ₀/4π · m/r³
+  magnetic_field_strength: 1.36
+  magnetic_field_description: 1.36x Earth's magnetic field strength
+  pole_orientation: 5.4
+  pole_orientation_description: 5.4° offset from rotational axis
+  Notes: The planet has a magnetic field 1.36x the strength of Earth's, which provides adequate protection from cosmic radiation.
+
+ELECTRIC ENERGY PROFILE:
+  Mathematical representation: E = F/q
+  electric_field_strength: 0.81
+  electric_field_description: 0.81x Earth's atmospheric electric field
+  lightning_activity: 0.96
+  lightning_description: 0.96x Earth's lightning frequency
+  Notes: The planet experiences moderate lightning activity compared to Earth.
+
+NUCLEAR ENERGY PROFILE:
+  Mathematical representation: E = mc²
+  radioactive_concentration: 0.94
+  radioactive_description: 0.94x Earth's radioactive element concentration
+  core_activity: 1.04
+  core_description: 1.04x Earth's core nuclear activity
+  Notes: The planet has similar levels of naturally occurring radioactive elements compared to Earth.
+
+CHEMICAL ENERGY PROFILE:
+  Mathematical representation: ΔG = ΔH - TΔS
+  chemical_energy_potential: 1.1
+  chemical_energy_description: 1.1x Earth's chemical energy potential
+  organic_diversity: 0.52
+  organic_diversity_description: 0.52x Earth's organic compound diversity
+  Notes: The planet has favorable chemical energy potential for supporting complex life.
+
+
+Planet 5: TRAPPIST-3396 b
+==========================
+Coordinates: RA 8h 17m 47.03s, Dec 11° 35' 34.93"
+Distance: 15.54 light years
+Habitability score: 51.37%
+
+Energy Profiles:
+--------------
+
+GRAVITY ENERGY PROFILE:
+  Mathematical representation: g = G * M / r^2
+  surface_gravity: 1.121
+  surface_gravity_description: 1.121 g (Earth = 1.0)
+  escape_velocity: 19.98
+  escape_velocity_description: 19.98 km/s
+  Notes: The planet has 1.121x Earth's gravity, which is suitable for human habitation.
+
+EM ENERGY PROFILE:
+  Mathematical representation: E = hν
+  star_type: G-type
+  uv_index: 1.09
+  uv_index_description: 1.09x Earth's UV index
+  radiation_level: 0.93
+  radiation_description: 0.93x Earth's radiation level
+  Notes: The planet orbits a G-type star with UV radiation levels 1.09x that of Earth, which is suitable for human habitation.
+
+QUANTUM ENERGY PROFILE:
+  Mathematical representation: E = hν/2
+  quantum_stability: 1.016
+  quantum_stability_description: 1.016x Earth's quantum stability
+  vacuum_energy_density: 1.016
+  vacuum_energy_description: 1.016x Earth's vacuum energy density
+  Notes: The planet has quantum stability metrics within normal parameters for habitable worlds.
+
+MAGNETIC ENERGY PROFILE:
+  Mathematical representation: B = μ₀/4π · m/r³
+  magnetic_field_strength: 1.33
+  magnetic_field_description: 1.33x Earth's magnetic field strength
+  pole_orientation: 11.6
+  pole_orientation_description: 11.6° offset from rotational axis
+  Notes: The planet has a magnetic field 1.33x the strength of Earth's, which provides adequate protection from cosmic radiation.
+
+ELECTRIC ENERGY PROFILE:
+  Mathematical representation: E = F/q
+  electric_field_strength: 0.79
+  electric_field_description: 0.79x Earth's atmospheric electric field
+  lightning_activity: 1.84
+  lightning_description: 1.84x Earth's lightning frequency
+  Notes: The planet experiences extreme lightning activity compared to Earth.
+
+NUCLEAR ENERGY PROFILE:
+  Mathematical representation: E = mc²
+  radioactive_concentration: 0.79
+  radioactive_description: 0.79x Earth's radioactive element concentration
+  core_activity: 1.05
+  core_description: 1.05x Earth's core nuclear activity
+  Notes: The planet has different levels of naturally occurring radioactive elements compared to Earth.
+
+CHEMICAL ENERGY PROFILE:
+  Mathematical representation: ΔG = ΔH - TΔS
+  chemical_energy_potential: 1.18
+  chemical_energy_description: 1.18x Earth's chemical energy potential
+  organic_diversity: 0.94
+  organic_diversity_description: 0.94x Earth's organic compound diversity
+  Notes: The planet has favorable chemical energy potential for supporting complex life.
+
+
